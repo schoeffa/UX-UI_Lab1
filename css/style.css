@@ -1,0 +1,93 @@
+body {
+    background-color: rgba(241, 233, 218, 0.5);
+    color: #2E294E;
+}
+
+.banner {
+    display: block;
+    position: relative;
+    top: -30px;
+}
+
+.main-title {
+    position: relative;
+    font-family: Pacifico;
+    font-size: 32px;
+}
+
+.main-body {
+    margin: 10px;
+}
+
+.sub-heading {
+    font-family: Rubik;
+    margin-bottom: 0;
+}
+
+.first-block img{
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 768px)
+{
+    .banner {
+        height: 300px;
+        top: -75px;
+    }
+
+    .main-title {
+        font-size: 48px;
+        top: -75px;
+    }
+
+    .first-block {
+        position: relative;
+        top: -125px;
+    }
+
+    .sub-heading {
+        font-size: 32px;
+        padding-bottom: 0px;
+    }
+
+
+    .first-block img {
+        float: right;
+        position: relative;
+        top: -60px;
+    }
+
+    section p {
+        font-size: 18px;
+        padding: 40px;
+    }
+
+    section img {
+        height: auto;
+        width: 25%;
+    }
+
+    .second-block {
+        position: relative;
+        margin-top: 50px;
+        top: -250px;
+    }
+
+    .firstpar {
+        padding-top: 0px;
+    }
+
+    .secondpar {
+        padding-top: 0px;
+    }
+
+    .carousel {
+        left: 50%;
+        transform: translateX(-50%);
+        height: 500px;
+        width: 500px;
+    }
+}
